@@ -47,5 +47,6 @@ public class VigenereCipher {
 
         System.out.println("Original  : " + plaintext);
         System.out.println("Encrypted : " + encrypted);
+        System.out.println("Decrypted: " + decrypted);
     }
 }
