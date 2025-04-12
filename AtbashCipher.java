@@ -1,6 +1,5 @@
 public class AtbashCipher {
 
-    // Encrypt or Decrypt (same logic for Atbash)
     public static String atbash(String input) {
         StringBuilder result = new StringBuilder();
 
@@ -10,14 +9,13 @@ public class AtbashCipher {
             } else if (Character.isLowerCase(ch)) {
                 result.append((char) ('z' - (ch - 'a')));
             } else {
-                result.append(ch); // Non-alphabetic characters unchanged
+                result.append(ch); 
             }
         }
 
         return result.toString();
     }
 
-    // Example usage
     public static void main(String[] args) {
         String plainText = "Hello World!";
         String cipherText = atbash(plainText);
