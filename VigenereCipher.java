@@ -1,6 +1,5 @@
 public class VigenereCipher {
 
-    // Encrypt
     public static String encrypt(String text, String key) {
         StringBuilder result = new StringBuilder();
         key = key.toLowerCase();
@@ -20,7 +19,6 @@ public class VigenereCipher {
         return result.toString();
     }
 
-    // Decrypt
     public static String decrypt(String text, String key) {
         StringBuilder result = new StringBuilder();
         key = key.toLowerCase();
