@@ -59,5 +59,6 @@ public class AffineCipher {
 
         System.out.println("Original  : " + text);
         System.out.println("Encrypted : " + encrypted);
+        System.out.println("Decrypted: " + decrypted);
     }
 }
