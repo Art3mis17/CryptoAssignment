@@ -1,6 +1,5 @@
 public class AugustCipher {
 
-    // Caesar cipher with shift = 1
     public static String encrypt(String input) {
         StringBuilder result = new StringBuilder();
 
@@ -16,8 +15,7 @@ public class AugustCipher {
 
         return result.toString();
     }
-
-    // Decrypt with shift = 1
+    
     public static String decrypt(String input) {
         StringBuilder result = new StringBuilder();
 
