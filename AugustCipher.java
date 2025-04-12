@@ -39,5 +39,6 @@ public class AugustCipher {
 
         System.out.println("Original  : " + plainText);
         System.out.println("Encrypted : " + encrypted);
+        System.out.println("Decrypted: " + decrypted);
     }
 }
