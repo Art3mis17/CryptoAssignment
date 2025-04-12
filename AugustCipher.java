@@ -9,7 +9,7 @@ public class AugustCipher {
             } else if (Character.isLowerCase(ch)) {
                 result.append((char) ((ch - 'a' + 1) % 26 + 'a'));
             } else {
-                result.append(ch); // Non-alphabetic characters unchanged
+                result.append(ch); 
             }
         }
 
@@ -25,7 +25,7 @@ public class AugustCipher {
             } else if (Character.isLowerCase(ch)) {
                 result.append((char) ((ch - 'a' - 1 + 26) % 26 + 'a'));
             } else {
-                result.append(ch); // Non-alphabetic characters unchanged
+                result.append(ch);
             }
         }
 
