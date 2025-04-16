@@ -115,3 +115,12 @@
   - Key: `ZEBRAS`
   - Output: `MKCRISZPYOOEXWHSKACMTE`
 
+---
+
+### 13. **Caesar Cipher**
+- **Type**: Monoalphabetic Substitution  
+- **Description**: Shifts each letter in the plaintext by a fixed number of positions.  
+- **Example**  
+  - Input: `HELLO`  
+  - Shift: `3`  
+  - Output: `KHOOR`
